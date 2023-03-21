@@ -1,10 +1,14 @@
-﻿namespace MyMessanger_Stepik
+﻿using System;
+
+namespace MyMessanger_Stepik
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Message msg = new Message();
+            Console.WriteLine("Начало проекта!");
+            Console.WriteLine(msg.ToString());
         }
     }
 }
